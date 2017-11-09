@@ -8,9 +8,9 @@ A parameter for enabling animation is added to the original UIStackView API.
 
 Two new API for updating the stack view more easily:
 
-- (void)replaceArrangedSubview:(UIView *)view withView:(UIView *)replacingView animated:(BOOL)animated completion:(void (^)(id replacedView))completion;
+\- (void)replaceArrangedSubview:(UIView *)view withView:(UIView *)replacingView animated:(BOOL)animated completion:(void (^)(id replacedView))completion;
 
-- (void)reloadArrangedSubview:(UIView *)view animated:(BOOL)animated withReloadConfiguration:(void (^)(id arrangedSubview))configuration;
+\- (void)reloadArrangedSubview:(UIView *)view animated:(BOOL)animated withReloadConfiguration:(void (^)(id arrangedSubview))configuration;
 
 # Attention
 
